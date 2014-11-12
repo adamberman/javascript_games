@@ -1,0 +1,17 @@
+
+.column{
+  display:inline-block;
+  vertical-align: top;
+  width: 120px;
+  height: 300px;
+}
+
+.pile{
+  width:98px;
+  height:98px;
+  border: 1px black solid;
+}
+
+.selected{
+  background:yellow;
+}
