@@ -1,17 +1,35 @@
 
 .column{
+  background-image: url('base.png');
+  background-size: 120px 300px;
   display:inline-block;
   vertical-align: top;
   width: 120px;
+  margin: 100px;
   height: 300px;
 }
 
 .pile{
-  width:98px;
+  margin: 0 auto;
+  width:120px;
   height:98px;
-  border: 1px black solid;
 }
 
 .selected{
   background:yellow;
+}
+
+.three{
+  background-image: url('three.png');
+  width: 120px;
+}
+
+.two{
+  background-image: url('two.png');
+  width: 80px;
+}
+
+.one{
+  background-image: url('one.png');
+  width: 60px;
 }
