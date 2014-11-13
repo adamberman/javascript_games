@@ -1,0 +1,42 @@
+#game{
+  margin: 0 auto;
+  margin-top: 50px;
+  width:500px;
+  height:500px;
+  position:relative;
+}
+#canvas{
+  width:500px;
+  height:500px;
+  position:absolute;
+  top:0;
+  left:0;
+}
+h3{
+  font-size:0.93em;
+  font-weight:none;
+}
+.heading{
+  text-align: center;
+}
+h1{
+  font-size:70px;
+  margin-bottom: 20px;
+}
+
+.row{
+  width: 100%;
+  height: 10px;
+}
+.tile{
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+  display: inline-block;
+}
+.snake{
+  background: black;
+}
+.apple{
+  background: red;
+}
